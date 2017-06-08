@@ -1,0 +1,36 @@
+h1{
+    font-size: 48px !important; /*48px ou 42px?*/
+    line-height: 56px !important;
+    font-family: 'latoblack' !important;
+    letter-spacing: 0.04em !important;
+}
+h2{
+    font-size: 38px !important;
+    line-height: 44px !important;
+    font-family: 'latoblack' !important;
+    letter-spacing: 0.04em !important;
+}
+h3{
+    font-size: 34px !important;
+    line-height: 38px !important;
+    font-family: 'latoblack' !important;
+    letter-spacing: 0.04em !important;
+}
+h4{
+    font-size: 24px !important;
+    line-height: 28px !important;
+    font-family: 'latoblack' !important;
+    letter-spacing: 0.04em !important;
+}
+h5{
+    font-size: 24px !important;
+    line-height: 28px !important;
+    font-family: 'latobold' !important;
+    letter-spacing: 0.02em !important;
+}
+h6{
+    font-size: 22px !important;
+    line-height: 26px !important;
+    font-family: 'latobold_italic' !important;
+    letter-spacing: 0.02em !important;
+}

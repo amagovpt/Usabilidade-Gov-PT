@@ -1,0 +1,59 @@
+.pages-wrapper a,
+.pages-wrapper .current {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    color: #2a2a2a;
+    font-size: 14px !important;
+    font-family: "latobold" !important;
+    vertical-align: top;
+    line-height: 16px !important;
+    text-decoration: none !important;
+}
+.pages-wrapper a.page{
+    color: #2a2a2a;
+    vertical-align: middle;
+}
+.pages-wrapper a:last-child {
+    margin-left: 5px;
+}
+.pages-wrapper a:not(.page) {
+    border: 2px solid #2a2a2a;
+}
+.pages-wrapper a i, 
+.pages-wrapper .current span, 
+.pages-wrapper a span {
+    position: relative;
+    top: 8px;
+}
+.pages-wrapper a i {
+    font-size: 0px;
+    width: auto !important;
+    height: auto !important;
+    display: inline-block !important;
+}
+.pages-wrapper a i:before {
+    font-size: 17px;
+}
+.pages-wrapper a.page:hover span,
+.pages-wrapper a.page.active span {
+    border-bottom: 2px solid #2980b9;
+    color: #2980b9;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 4px;
+}
+.pages-wrapper a:hover {
+    text-decoration: none !important;
+}
+.pages-wrapper a:hover:not(.page) {
+    color: #2980b9;
+    border: 2px solid #2980b9;
+    text-decoration: none;
+}
+.pages-wrapper a .icone-arrow_left:before,
+.pages-wrapper a .icone-arrow_right:before{
+    margin: auto;
+    display: block;
+}

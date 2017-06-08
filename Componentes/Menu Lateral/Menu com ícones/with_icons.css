@@ -1,0 +1,60 @@
+nav.side-menu{
+    max-width: 321px;
+}
+nav.side-menu > ul > li{
+    padding: 6px 0px;
+    border-bottom: 1px solid rgba(42, 42, 42,0.4);
+}
+nav.side-menu > ul > li:last-child{
+    border-bottom: none;
+}
+nav.side-menu > ul > li > a,
+nav.side-menu > ul > li{
+    font-size: 14px;
+    font-family: "latobold";
+    color: #2A2A2A;
+}
+nav.side-menu > ul > li:hover > a,
+nav.side-menu > ul > li.active > a{
+    color: #fff;
+    background: #2980b9;
+}
+nav.side-menu > ul > li.active i.drop-icon{
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(-90deg) !important;
+    display: inline-block;
+}
+
+nav.side-menu > ul > li > a{
+    padding: 10px 10px;
+    display: block;
+}
+nav.side-menu > ul > li .sub-menu{
+    display: none;
+}
+nav.side-menu > ul > li .sub-menu li{
+    padding: 6px 10px;
+    line-height: 16px;
+}
+nav.side-menu > ul > li .sub-menu li:hover{
+    background: #D0D2D3;
+}
+nav.side-menu > ul > li .sub-menu li a{
+    font-size: 14px;
+    font-family: "latoregular";
+    color: #808184;
+    display: block;
+}
+nav.side-menu > ul > li .sub-menu li:hover a{
+    color: #2980B9;
+}
+nav.side-menu > ul > li i{
+    font-size: 6px;
+    margin-left: 5px;
+}
+nav.side-menu.menu-icon > ul > li i:first-child{
+    font-size: 20px;
+}
