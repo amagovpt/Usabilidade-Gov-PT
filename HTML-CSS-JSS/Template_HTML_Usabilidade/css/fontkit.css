@@ -1,0 +1,374 @@
+@font-face {
+    font-family: 'latoblack';
+    src: url('fonts/lato-black-webfont.woff2') format('woff2'),
+         url('fonts/lato-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'latoblack_italic';
+    src: url('fonts/lato-blackitalic-webfont.woff2') format('woff2'),
+         url('fonts/lato-blackitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'latobold';
+    src: url('fonts/lato-bold-webfont.woff2') format('woff2'),
+         url('fonts/lato-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'latobold_italic';
+    src: url('fonts/lato-bolditalic-webfont.woff2') format('woff2'),
+         url('fonts/lato-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'latohairline';
+    src: url('fonts/lato-hairline-webfont.woff2') format('woff2'),
+         url('fonts/lato-hairline-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'latohairline_italic';
+    src: url('fonts/lato-hairlineitalic-webfont.woff2') format('woff2'),
+         url('fonts/lato-hairlineitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'latoitalic';
+    src: url('fonts/lato-italic-webfont.woff2') format('woff2'),
+         url('fonts/lato-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'latolight';
+    src: url('fonts/lato-light-webfont.woff2') format('woff2'),
+         url('fonts/lato-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'latolight_italic';
+    src: url('fonts/lato-lightitalic-webfont.woff2') format('woff2'),
+         url('fonts/lato-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'latoregular';
+    src: url('fonts/lato-regular-webfont.woff2') format('woff2'),
+         url('fonts/lato-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'karmabold';
+    src: url('fonts/karma-bold-webfont.woff2') format('woff2'),
+         url('fonts/karma-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'karmalight';
+    src: url('fonts/karma-light-webfont.woff2') format('woff2'),
+         url('fonts/karma-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'karmamedium';
+    src: url('fonts/karma-medium-webfont.woff2') format('woff2'),
+         url('fonts/karma-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'karma_regularregular';
+    src: url('fonts/karma-regular-webfont.woff2') format('woff2'),
+         url('fonts/karma-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'karmasemibold';
+    src: url('fonts/karma-semibold-webfont.woff2') format('woff2'),
+         url('fonts/karma-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'roboto_monoregular';
+    src: url('fonts/roboto_mono_regular-webfont.woff2') format('woff2'),
+         url('fonts/roboto_mono_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'toolkit_font';
+  src:  url('fonts/toolkit_font.eot?vsdk6q');
+  src:  url('fonts/toolkit_font.eot?vsdk6q#iefix') format('embedded-opentype'),
+    url('fonts/toolkit_font.ttf?vsdk6q') format('truetype'),
+    url('fonts/toolkit_font.woff?vsdk6q') format('woff'),
+    url('fonts/toolkit_font.svg?vsdk6q#toolkit_font') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i[class^="icone-"]{
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'toolkit_font' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: normal !important;
+  width: auto !important;
+  height: auto !important;
+  display: inline-block !important;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+     vertical-align: middle;
+}
+
+.icone-logotipo:before {
+  content: "\e906";
+}
+.icone-breadcrumbs:before {
+  content: "\e905";
+}
+.icone-botoes:before {
+  content: "\1f5ed";
+}
+.icone-close_menu:before {
+  content: "\e917";
+}
+.icone-burguer:before {
+  content: "\e916";
+}
+.icone-smile_bad:before {
+  content: "\e908";
+}
+.icone-smile_good:before {
+  content: "\e913";
+}
+.icone-smile_normal:before {
+  content: "\e914";
+}
+.icone-done:before {
+  content: "\e915";
+}
+.icone-close:before {
+  content: "\e907";
+}
+.icone-acordeons:before {
+  content: "\e900";
+}
+.icone-alerts:before {
+  content: "\e901";
+}
+.icone-arrow_left:before {
+  content: "\e902";
+}
+.icone-arrow_right:before {
+  content: "\e903";
+}
+.icone-back_top:before {
+  content: "\e904";
+}
+.icone-circle_line:before {
+  content: "\e909";
+}
+.icone-circle:before {
+  content: "\e90a";
+}
+.icone-code:before {
+  content: "\e90b";
+}
+.icone-comecar_designer:before {
+  content: "\e90c";
+}
+.icone-comecar_download:before {
+  content: "\e90d";
+}
+.icone-componentes:before {
+  content: "\e90e";
+}
+.icone-contribuir:before {
+  content: "\e90f";
+}
+.icone-cores:before {
+  content: "\e910";
+}
+.icone-download:before {
+  content: "\e911";
+}
+.icone-dropdown:before {
+  content: "\e912";
+}
+.icone-facebook:before {
+  content: "\e91a";
+}
+.icone-fonte:before {
+  content: "\e91b";
+}
+.icone-form:before {
+  content: "\e91c";
+}
+.icone-grelha:before {
+  content: "\e91d";
+}
+.icone-hp_checklist:before {
+  content: "\e91e";
+}
+.icone-hp_componentes:before {
+  content: "\e91f";
+}
+.icone-hp_templates:before {
+  content: "\e920";
+}
+.icone-icons:before {
+  content: "\e921";
+}
+.icone-link:before {
+  content: "\e922";
+}
+.icone-linkedin:before {
+  content: "\e923";
+}
+.icone-list:before {
+  content: "\e924";
+}
+.icone-loaders:before {
+  content: "\e925";
+}
+.icone-search:before {
+  content: "\e926";
+}
+.icone-more:before {
+  content: "\e927";
+}
+.icone-mouse:before {
+  content: "\e928";
+}
+.icone-nav:before {
+  content: "\e929";
+}
+.icone-pagination:before {
+  content: "\e934";
+}
+.icone-popups:before {
+  content: "\e937";
+}
+.icone-portal:before {
+  content: "\e940";
+}
+.icone-side_nav:before {
+  content: "\e941";
+}
+.icone-tables:before {
+  content: "\e94c";
+}
+.icone-tabs:before {
+  content: "\e94d";
+}
+.icone-tipo:before {
+  content: "\e954";
+}
+.icone-tooltips:before {
+  content: "\e955";
+}
+.icone-twitter:before {
+  content: "\e956";
+}
+.icone-usabilidade:before {
+  content: "\e957";
+}
+.icone-view:before {
+  content: "\e958";
+}
+.icone-youtube:before {
+  content: "\e959";
+}

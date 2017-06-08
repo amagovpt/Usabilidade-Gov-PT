@@ -1,0 +1,260 @@
+#hrefFm {
+	display: none;
+}
+@media only screen and (max-width: 1210px) {
+	.search-box{
+		padding: 0px 28px 0px 28px;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	.privacy-info-message .layout .text-private {
+	    display: block;
+	    width: 100%;
+	    margin-bottom: 10px;
+	        text-align: center;
+	}
+	.privacy-info-message .layout .btnWrapper {
+    	display: block;
+	    text-align: left;
+	    width: 100%;
+        text-align: center;
+	}
+		.privacy-info-message .layout .btnWrapper a {
+			float: left;
+		}
+		.privacy-info-message .layout .btnWrapper button {
+			margin: auto;
+    		float: none;
+		}
+	.search-box i.icon-remove{
+	    margin-bottom: 55px;
+    	margin-top: 55px;
+    	margin-right: 5px;
+	}
+	.search-box i.icon-remove:before{
+		font-size: 34px;
+	}
+	#banner.open .horizontal-menu i.icone-burguer{
+		line-height: 30px !important;
+	}
+	#banner.open .horizontal-menu i.icone-burguer:before{
+		font-family: 'fontawesome' !important;
+		content: "\f00d";
+		font-size: 50px;
+	}	
+	    
+}
+@media only screen and (max-width: 979px) {
+	.aui .portlet-dockbar,
+	.aui .dockbar-split .dockbar .navbar-inner {
+	    display: none;
+	}
+	.aui.ios textarea,
+	.aui.ios input{
+	    max-width: 100% !important; 
+	}
+	.aui.ie input,
+	.aui.ie textarea{
+		max-width: 100% !important; 
+		width: 100% !important; 
+	}
+	.block-wrapper.variations-wrapper button{
+		padding: 0px 40px;
+	}
+	.block-wrapper.contact-wrapper .span6 .button-wrapper button:last-child {
+	    margin-left: 15px !important;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	#copyright .footer-images-wrapper>div,
+	#sitemap .nav-menu .span2{
+		margin-bottom: 30px !important;
+	}
+	.top-banner .text-area .description {
+		padding: 0px 15px;
+	}
+	#homeWrapper .top-banner .text-area h1 {
+        font-size: 48px!important
+    }
+	.row-fluid [class*="span"]{
+		width: 100% !important;
+		margin-left: 0px !important;	
+		margin-right: 0px !important;		
+	}
+	.news-wrapper .row-fluid .span4,
+	.block-wrapper.variations-wrapper .row-fluid .span4,
+	#listNoticiasWrapper .row-fluid .span4{
+		margin-bottom: 60px !important;
+	}
+	.top-banner #homepage-slider .text-area h3{
+		max-width: 90%;
+	}
+	.block-wrapper.contact-wrapper .span6.form-wrapper{
+		margin-top: 60px !important;
+		text-align: center;
+	}
+	.block-wrapper.contact-wrapper .span6.form-wrapper .p2{
+		text-align: left;
+	}
+	#footer .nav-menu .container-fluid .layouts,
+	#sitemap .nav-menu .span2{
+		text-align: center;
+	}	
+	#listNoticiasWrapper .row-fluid:not(:last-child){
+		margin-bottom: 0px;
+	}
+	.bx-wrapper .bx-controls-direction a{
+		display: none;
+	}
+	#formServicesWrapper .form-wrapper .generoBox {
+		padding: 0px 0px 28px 10px;
+	}
+	.top-banner #homepage-slider .text-area h1{
+		padding-top: 8vh;
+	}
+	.top-banner #homepage-slider .text-area .description{
+		margin-top: 8vh;
+	}
+	#sitemapSubMenu .row-fluid [class*="span"]{
+		height: 24px;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	.top-banner .text-area h1 {
+	    margin-top: 15px;
+	    margin-bottom: 15px;
+	}
+	.top-banner .text-area .description {
+    	font-size: 16px;
+    	line-height: 24px;
+    	margin-top: 20px;
+	}
+	h1,
+	.top-banner #homepage-slider .text-area h1{
+        font-size: 30px!important;
+        line-height: 38px!important
+    }
+    .top-banner #homepage-slider .text-area h1{
+	    padding-top: 100px; 
+	}
+    h2 {
+        font-size: 28px!important;
+        line-height: 34px!important
+    }
+
+    h3,
+    .top-banner #homepage-slider .text-area h3{
+        font-size: 24px!important;
+        line-height: 28px!important
+    }
+	.top-banner #homepage-slider .text-area .description p{
+		font-size: 22px !important;
+	}
+    h4 {
+        font-size: 22px!important;
+        line-height: 26px!important
+    }	
+    .block-wrapper .button1,
+    .block-wrapper.variations-wrapper button{
+    	margin-top: 40px !important;
+    }
+    .block-wrapper.contact-wrapper .span6 button,
+    #contactFormWrapper .form-wrapper .btnWrapper button{
+		display: inline-block;
+	}
+	.block-wrapper.contact-wrapper .span6:first-child .button-icon,
+	.block-wrapper.contact-wrapper .span6 .button-wrapper{
+		margin-top: 30px !important;
+	}
+	.top-banner #homepage-slider .text-area .description{
+		margin-top: 100px;
+	}
+	#newsletterWrapper .newsletter-wrapper{
+		padding: 33px 5%!important;
+	}
+	.top-banner #homepage-slider .text-area{
+		padding-left: 15px;
+    	padding-right: 15px;
+	}
+	
+	#formServicesWrapper .navBulletsForm .lineStep {
+		max-width: 150px;
+	}
+	#formServicesWrapper .form-wrapper .btnWrapper #btnPrevious {
+		margin-bottom: 30px !important;
+	}
+	.newsletter-box{
+		text-align: center;
+	}	
+}
+@media only screen and (max-width: 480px) {	
+	.block-wrapper.contact-wrapper .span6 .button-wrapper button,
+	.block-wrapper.contact-wrapper .span6 .button-wrapper button:last-child{
+		margin: auto !important;
+	}
+	.block-wrapper.contact-wrapper .span6 .button-wrapper button:last-child,
+	#contactFormWrapper .form-wrapper .btnWrapper button:last-child{
+		margin-top: 30px !important;
+		display: block;
+	}
+	#searchInputWrapper input{
+		font-size: 24px!important;
+	}	
+	#searchInputWrapper input::-webkit-input-placeholder {
+		font-size: 24px!important;
+	}
+	#searchInputWrapper input::-moz-placeholder {
+		font-size: 24px!important;
+	}
+	#searchInputWrapper input:-ms-input-placeholder {
+		font-size: 24px!important;
+	}
+	#searchInputWrapper input:-moz-placeholder {
+		font-size: 24px!important;
+	}#formServicesWrapper .navBulletsForm .lineStep {
+		max-width: 70px;
+	}
+	.animateInput span{
+		left: 10px !important;
+	}
+	.form-wrapper input, .form-wrapper textarea {
+		padding-left: 10px !important;
+	}
+	#formServicesWrapper .form-wrapper .generoBox > span {
+	    display: block;
+		
+	}
+	#formServicesWrapper .form-wrapper .generoBox .radio-button {
+		margin: 10px 5px 5px 5px !important;
+	    display: inline-block !important;
+	}
+	#formServicesWrapper .form-wrapper .generoBox .radio-button:first-of-type {
+		margin-left: 0px !important;
+	}
+}
+
+@media only screen and (max-width: 440px) {
+    .privacy-info-message .layout .btnWrapper a {
+    	display: block;
+    	width: 100%;
+    	float: none;
+    }
+    .privacy-info-message .layout .btnWrapper button {
+        margin-left: 0px;
+	    width: 100%;
+	    display: block;
+    	float: none;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+	.g-recaptcha {
+	    transform: scale(0.9);
+	    -webkit-transform: scale(0.9);
+	    transform-origin: 0 0;
+	    -webkit-transform-origin: 0 0;
+	}
+}
